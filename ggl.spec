@@ -10,7 +10,7 @@ Source:		ftp://ceu.fi.udc.es/pub/os/linux/gpul/%name-%version.tar.bz2
 #Patch:		
 BuildRequires:	libggi-devel
 #Requires:	
-Buildroot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define	_prefix	/usr
 
