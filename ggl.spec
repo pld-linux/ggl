@@ -9,6 +9,9 @@ Group(de):	Libraries
 Group(es):	Bibliotecas
 Group(fr):	Librairies
 Group(pl):	Biblioteki
+Group(pt_BR):	Bibliotecas
+Group(ru):	Библиотеки
+Group(uk):	Б╕бл╕отеки
 Source0:	ftp://ceu.fi.udc.es/pub/os/linux/gpul/%name-%version.tar.bz2
 #Patch0:	
 BuildRequires:	libggi-devel
