@@ -5,7 +5,7 @@ Version:	0.2.0
 Release:	1
 License:	GPL
 Group:		Libraries
-Source0:	ftp://ceu.fi.udc.es/pub/os/linux/gpul/%name-%version.tar.bz2
+Source0:	ftp://ceu.fi.udc.es/pub/os/linux/gpul/%{name}-%{version}.tar.bz2
 # Source0-md5:	1b021f0723ba7004522fb75c91cf2297
 BuildRequires:	libggi-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
