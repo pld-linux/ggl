@@ -3,11 +3,12 @@ Summary(pl):	ggl - "wysoko-poziomowe" API dla gier.
 Name:		ggl
 Version:	0.2.0
 Release:	1
-Copyright:	GPL
+License:	GPL
 Group:		Libraries
+Group(fr):	Librairies
 Group(pl):	Biblioteki
-Source:		ftp://ceu.fi.udc.es/pub/os/linux/gpul/%name-%version.tar.bz2
-#Patch:		
+Source0:	ftp://ceu.fi.udc.es/pub/os/linux/gpul/%name-%version.tar.bz2
+Patch0:		
 BuildRequires:	libggi-devel
 #Requires:	
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -22,6 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Summary:	ggl devel	
 Summary(pl):	ggl devel
 Group:		Development/Libraries
+Group(fr):	Development/Librairies
 Group(pl):	Programowanie/Biblioteki
 
 %description devel
