@@ -1,5 +1,5 @@
 Summary:	ggl - High level game API
-Summary(pl):	ggl - wysokopoziomowe API dla gier
+Summary(pl.UTF-8):   ggl - wysokopoziomowe API dla gier
 Name:		ggl
 Version:	0.2.0
 Release:	1
@@ -15,18 +15,18 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 ggl - High level game API.
 
-%description -l pl
+%description -l pl.UTF-8
 ggl - wysokopoziomowe API dla gier.
 
 %package devel
 Summary:	ggl devel
-Summary(pl):	ggl - czê¶æ dla programistów
+Summary(pl.UTF-8):   ggl - czÄ™Å›Ä‡ dla programistÃ³w
 Group:		Development/Libraries
 
 %description devel
 ggl developement files.
 
-%description devel -l pl
+%description devel -l pl.UTF-8
 Pliki developerskie ggi.
 
 %prep
